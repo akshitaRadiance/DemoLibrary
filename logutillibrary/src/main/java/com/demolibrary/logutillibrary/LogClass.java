@@ -13,7 +13,7 @@ public class LogClass {
 
     public static void error(String msg) {
 
-        Log.d(TAG, "error msg: " + msg);
+        Log.e(TAG, "error msg: " + msg);
     }
 
     public static void verbose(String msg) {
